@@ -3,7 +3,6 @@ package graphbot.mongo
 import com.mongodb.client.MongoClient
 import graphbot.core.objects.Storable
 import graphbot.core.storage.Storage
-import org.bson.conversions.Bson
 import org.litote.kmongo.*
 import kotlin.reflect.KClass
 import kotlin.reflect.full.memberProperties

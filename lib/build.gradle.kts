@@ -45,5 +45,5 @@ dependencies {
     api("org.apache.commons:commons-math3:3.6.1")
 
     implementation("org.litote.kmongo:kmongo:4.1.3")
-    implementation("com.github.alexsvdk:graphbot:-SNAPSHOT")
+    implementation("com.github.alexsvdk:graphbot:$version")
 }
