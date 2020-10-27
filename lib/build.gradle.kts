@@ -6,15 +6,18 @@
  * User Manual available at https://docs.gradle.org/6.7/userguide/building_java_projects.html
  */
 
-version = "0.1.0"
+version = "0.1.1"
 
 plugins {
     // Apply the org.jetbrains.kotlin.jvm Plugin to add support for Kotlin.
-    id("org.jetbrains.kotlin.jvm") version "1.3.72"
+    id("org.jetbrains.kotlin.jvm") version "1.4.10"
 
     // Apply the java-library plugin for API and implementation separation.
     `java-library`
 }
+
+
+
 
 repositories {
     // Use JCenter for resolving dependencies.
@@ -42,5 +45,5 @@ dependencies {
     api("org.apache.commons:commons-math3:3.6.1")
 
     implementation("org.litote.kmongo:kmongo:4.1.3")
-    implementation("com.github.alexsvdk:graphbot:$version")
+    implementation("com.github.alexsvdk:graphbot:-SNAPSHOT")
 }
